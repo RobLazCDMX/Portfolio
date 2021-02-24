@@ -15,8 +15,8 @@ const Services = () => {
         <div data-aos="fade-up">
             <div  className="services" id="services">
                 <div className="service-heading">
-                    <h1>Services</h1>
-                    <p>These are the Services I Provide You.</p>
+                    <h1>Skills</h1>
+                    <p>These are the Skills I Provide You.</p>
                 </div>
                 <div className="b-container">
                     <Cards

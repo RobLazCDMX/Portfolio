@@ -31,7 +31,7 @@ input{
     position: relative;
     background: no-repeat;
     background-size: cover;
-    background-image: url("./assets/Para2.png");
+    background-image: url("./assets/Para2-min.jpg");
 }
 nav{
     display: flex;
@@ -163,8 +163,8 @@ nav .menu-btn, .menu-icon{
 .arrow{
 align-self: end;
 width: 50%;
-height: 12%;
-margin-bottom: 1em;
+height: 8%;
+/* margin-bottom: 1em; */
 position: absolute;
 bottom:10px;
 left: -3%;
