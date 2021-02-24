@@ -4,13 +4,18 @@ import Header from './components/Header';
 import About from './components/About';
 import Contact from './components/Contact';
 import Services from './components/Services';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+  <div>
+    <Header/>
+    <About/>
+    <Services/>
+    <Contact/>
+    <Footer/>
+  </div>
   );
 }
 
