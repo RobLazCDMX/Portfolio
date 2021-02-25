@@ -4,9 +4,9 @@ import { Link, animateScroll as scroll } from "react-scroll";
 const Navbar = () => {
     return (  
        <nav>
-           <a href="#" className='logo'>
-               UI Expert
-           </a>
+           <div className='logo'>
+             Welcome!
+           </div>
 
            <input className="menu-btn" type='checkbox' id="menu-btn"/>
            <label className='menu-icon' for="menu-btn">
@@ -18,7 +18,7 @@ const Navbar = () => {
             <li><Link activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={1000}>About</Link></li>
             <li><Link activeClass="active" to="services" spy={true} smooth={true} offset={-70} duration={1000}>Skills</Link></li>
             <li><Link activeClass="active" to="contact" spy={true} smooth={true} offset={-70} duration={1000}>Contact</Link></li>
-            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="https://www.yumpu.com/en/document/read/65320474/roberto-lazcano-resume-r2h">Portfolio</a></li>
            </ul>
            <a href="#" className="Hey">Hey!</a>
        </nav>

@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Cards from './card/Cards';
 import Data from './card/Data';
 import image1 from '../assets/s1.png';
-import image2 from '../assets/s2.png';
+import image2 from '../assets/guess.png';
 import image3 from '../assets/s3.jpg';
 import Aos from "aos";
 import 'aos/dist/aos.css';

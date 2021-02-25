@@ -11,7 +11,7 @@ const Contact = () => {
         <div data-aos="fade-up" className="contact" id="contact">
             <h3>Get In Touch</h3>
             <div className="contact-input">
-                <input type="email" placeholder="Example@email.com"/>
+                <input type="email" id="email" placeholder="Example@email.com"/>
                 <a href="#">Continue</a>
             </div>
             
