@@ -1,18 +1,21 @@
 const Data =[
     {
-        stype: "React",
+        stype: "HTML & CSS",
         simage: '{image1}',
-        sdescription: "React Native lets you create truly native apps and doesn't compromise your users' experiences. It provides a core set of platform agnostic native components like View, Text, and Image that map directly to the platform’s native UI building blocks."
+        sdescription: " Dynamic wedpage designed with simply HTML and CSS. A very simple and fundamental combination that allows you create dynamic content.",
+        slink: "https://visitmexico.netlify.app"
     },
     {
-        stype: "JS",
+        stype: "HTML,CSS & JS",
         simage: '{image2}',
-        sdescription: "React Native lets you create truly native apps and doesn't compromise your users' experiences. It provides a core set of platform agnostic native components like View, Text, and Image that map directly to the platform’s native UI building blocks."
+        sdescription: "JavaScript (JS) is a lightweight, object-oriented language with first-class functions, and is best known as the scripting language for Web pages.",
+        slink: "https://guessanumber1.netlify.app/"
     },
     {
-        stype: "Front-End",
+        stype: "React.js",
         simage: '{image3}',
-        sdescription: "React Native lets you create truly native apps and doesn't compromise your users' experiences. It provides a core set of platform agnostic native components like View, Text, and Image that map directly to the platform’s native UI building blocks."
+        sdescription: "React (React. js or ReactJS) is an open-source, front end, JavaScript library for building user interfaces or UI components.",
+        slink: "https://yadishardwarestore.netlify.app/"
     }
 ];
 export default Data;

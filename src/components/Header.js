@@ -19,7 +19,7 @@ const Header = () => {
 
                 <div className="header-btns">
                     <Link to='email' className="hire-me-btn">Hire Me</Link>
-                    <a href="https://slack-files.com/T5VCY49B3-F01MY9M27U3-3bbdfe3f2a" className="cv-btn">Download CV</a>
+                    <a href="" onClick={()=> window.open("https://slack-files.com/T5VCY49B3-F01MY9M27U3-3bbdfe3f2a", "_blank")} className="cv-btn">Download CV</a>
                 </div>
            </div>
            <div className="arrow"></div>

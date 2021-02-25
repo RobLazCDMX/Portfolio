@@ -8,7 +8,7 @@ const Cards = (props) => {
                 <img src={props.simage} alt="service-image"/>
             </div>
             <div className="service-box-text">
-                <a href="#">{props.sdescription}</a>
+                <a href='' onClick={()=> window.open(`${props.slink}`)} >{props.sdescription}</a>
             </div>
         </div>
     );

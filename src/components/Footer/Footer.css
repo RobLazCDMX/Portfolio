@@ -21,3 +21,7 @@ margin: 0px 15px 0px 15px;
     size: 9vh;
     padding: 0 20px;
 }
+
+.Footer a:hover{
+    color:#000266;
+}
