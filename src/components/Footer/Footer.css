@@ -15,13 +15,17 @@
 .Footer img {
 vertical-align: middle;
 margin: 0px 15px 0px 15px;
+/* color: black; */
 }
 
-.i{
+/* .i{
     size: 9vh;
     padding: 0 20px;
+} */
+
+.Footer img:hover{
+    background-color: #d0ff00;
+    transition: all ease 0.3s;
+    color: #000266;
 }
 
-.Footer a:hover{
-    color:#000266;
-}

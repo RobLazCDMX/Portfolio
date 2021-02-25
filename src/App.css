@@ -237,6 +237,8 @@ position: relative;
 }
 .about-model img{
     height: 400px;
+    width: 700px;
+    padding: 15px;
 }
 
 .services{
@@ -384,41 +386,31 @@ position: relative;
 	font-weight: 500;
 }
 
-/* .Footer {
-    display: block;
-    position: static;
-    text-align: center;
-    background-color: black;
-    color: white;
-    width: 100%;
-    overflow: hidden;
-    font-size: 20px; 
-    padding: 0;
-    bottom:0;
-    margin: 0px;
+.contact-input a:hover{
+    background-color: #d0ff00;
+    transition: all ease 0.3s;
+    color: #000266;
 }
 
-.Footer img {
-vertical-align: middle;
-}
 
-.Footer i{
-    size: 9vh;
-    padding: 0 20px;
-} */
 
 @media(max-width:1190px){
 	.main{
-		background-size: 1150px !important;
-		
+		/* background-size: 1150px !important; */
+		height: 900px;
 	}
 	.name{
 		left: 10%;
 		top: 50%;
 		transform: translate(-10%,-50%);
-	}
+    }
+    .about{
+        height: 50vh;
+       
+    }
 	.about-model img{
-		height:400px;
+        height:400px;
+        width: 500px;
     }
     .services{
 		height:auto;
@@ -435,22 +427,29 @@ vertical-align: middle;
 
 }
 
-@media(max-width:970px){
-	.main{
-		background-image: none !important;
+@media(max-width: 990px){
+	/* .main{
+        background-image: none !important;
+        background-image: url("./assets/Para2-min.jpg");
 		
-	}
+	} */
 	.name{
-		left: 50%;
+		left: 0%;
 		top: 50%;
 		transform: translate(-50%,-50%);
-	}
-	.about-model{
-		display: none;
-	}
+    }
+    .about-model img{
+        height:300px;
+        width: 400px;
+    }
+	/* .about-model{
+        display: none;
+	} */
 	.about{
+        height: 60vh;
 		justify-content: center;
-		padding-top: 0px;
+        padding-top: 0px;
+        margin: 5px;
 	}
 	.about-text{
 		width: 90%;
@@ -458,12 +457,68 @@ vertical-align: middle;
 	.about-text h1{
 		font-size:4rem;
     }
+
 	
 }
-@media(max-width:600px){
-	.name{
+@media(max-width:400px){
+	/* .name{
 		width:60%;
+    } */
+    .main{
+        /* background-image: none !important; */
+        background-image: url("./assets/Para2-min.jpg") ;
+        
     }
+    
+
+	.name{
+		left: 0%;
+		top: 50%;
+		transform: translate(-50%,-50%);
+    }
+    .name p{
+        font-size: 1rem;
+    }
+    .arrow{
+        width: 40%;
+    }
+
+    .about-model img{
+        height:200px;
+        width: 200px;
+        margin-left: 2px;
+    }
+	/* .about-model{
+		display: none;
+	} */
+	.about{
+		justify-content: center;
+        padding-top: 0px;
+        height: 100vh;
+        width: 100vw;
+    }
+    .about-text button{
+        width: 120px;
+        position: relative;
+    }
+	.about-text{
+		width: 90%;
+	}
+	.about-text h1{
+		font-size:4rem;
+    }
+    
+    .about-text p{
+        font-size: .5rem;
+        height: 20vh;
+        
+    }
+    
+
+    .contact{
+        height: 30vh;
+    }
+
 }
     
 @media(max-width:1100px){.menu-icon{

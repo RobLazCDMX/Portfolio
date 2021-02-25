@@ -18,7 +18,7 @@ const Navbar = () => {
             <li><Link activeClass="active" to="about" spy={true} smooth={true} offset={-70} duration={1000}>About</Link></li>
             <li><Link activeClass="active" to="services" spy={true} smooth={true} offset={-70} duration={1000}>Skills</Link></li>
             <li><Link activeClass="active" to="contact" spy={true} smooth={true} offset={-70} duration={1000}>Contact</Link></li>
-            <li><a href="https://www.yumpu.com/en/document/read/65320474/roberto-lazcano-resume-r2h">Portfolio</a></li>
+            <li><a href="" onClick={()=> window.open('https://www.yumpu.com/en/document/read/65320474/roberto-lazcano-resume-r2h')}>Portfolio</a></li>
            </ul>
            <a href="#" className="Hey">Hey!</a>
        </nav>

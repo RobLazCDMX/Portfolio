@@ -9,9 +9,9 @@ const footer = () => {
   return (
     <div className="Footer">
       <p>
-        <a href=""><img src={LinkedIn} alt=" cannot be found" onClick={()=> window.open("https://www.linkedin.com/in/roberto-lazcano-6546301a7/", "_blank")}/></a>
+        <a href=""><img src={LinkedIn} alt=" cannot be found" onClick={()=> window.open("https://www.linkedin.com/in/roberto-lazcano-6546301a7/", "_blank")} /></a>
         
-        <a href=''> <img src={GitHub} alt=" cannot be found" onClick={()=> window.open("https://github.com/RobLazCDMX")} /></a>
+        <a className='icon' href=''> <img src={GitHub} alt=" cannot be found" onClick={()=> window.open("https://github.com/RobLazCDMX")} /></a>
         Copyright &copy; 2020, Roberto Lazcano
         <img src={Logo} alt=" cannot be found" />
         
