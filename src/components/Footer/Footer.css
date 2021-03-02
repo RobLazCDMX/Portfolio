@@ -28,4 +28,9 @@ margin: 0px 15px 0px 15px;
     transition: all ease 0.3s;
     color: #000266;
 }
+@media(max-width: 400px){
+    .Footer{
+        width: 400px;
+    }
+}
 

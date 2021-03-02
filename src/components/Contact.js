@@ -1,6 +1,7 @@
 import React , { useEffect } from 'react';
 import Aos from "aos";
 import 'aos/dist/aos.css';
+import MePic from '../assets/Me.png';
 
 
 const Contact = () => {
@@ -12,8 +13,22 @@ const Contact = () => {
             <h3>Get In Touch</h3>
             <div className="contact-input">
                 <input type="email" id="email" placeholder="Example@email.com"/>
-                <a href="#">Continue</a>
+                <input type='text' id='Name' placeholder="Full Name"/>
+                <input type='text' id='Phone#' placeholder="Phone Number"/>
             </div>
+            <div className='fName'>
+            
+            </div>
+            <div className="cv-btn-contact" >
+                <button href="#">Continue</button>  
+            </div>
+            <div className="cv-btn-contact" >
+                <button  href="" onClick={()=> window.open("https://slack-files.com/T5VCY49B3-F01MY9M27U3-3bbdfe3f2a", "_blank")}>Download CV</button>
+            </div>
+            <br/>
+            <br/>
+            <img src={MePic} alt="Not available"/>
+            
             
         </div>
     );
