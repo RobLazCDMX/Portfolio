@@ -23,10 +23,9 @@ margin: 0px 15px 0px 15px;
     padding: 0 20px;
 } */
 
-.Footer img:hover{
+.Footer  img:hover{
     background-color: #d0ff00;
     transition: all ease 0.3s;
-    color: #000266;
 }
 @media(max-width: 400px){
     .Footer{

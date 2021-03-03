@@ -101,7 +101,18 @@
 
 } 
 
-element.style {
-    color:  #d0ff00;
-    background-color: red;
+button.rec-dot{
+    background-color: #ffffff;
+    box-shadow: 0 0 1px 3px #fffffff6;
+}
+
+button.rec-dot:hover  {
+    background-color: #d0ff00;
+    /* box-shadow: 0 0 1px 3px  #1db096; */
+}
+
+button.lgksPe:hover:enabled, .lgksPe:focus:enabled {
+    color: #ffffff;
+    background-color:  #d0ff00;
+    box-shadow: 0 0 2px 0  hsl(74, 100%, 50%);
 }

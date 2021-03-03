@@ -5,7 +5,8 @@ import Data from '../card/Data';
 import image1 from '../../assets/s3.jpg';
 import image3 from '../../assets/s1.png';
 import image2 from '../../assets/guess.png';
-
+import image4 from '../../assets/tesla.png';
+import image5 from '../../assets/hopeP.png';
 
 
 
@@ -23,32 +24,32 @@ const ImageSlider = () => {
         <div >
                 <Carousel breakPoints={breakProints}>
                     <Cards 
-                        stype={Data[0].stype}
+                        // stype={Data[0].stype}
                         simage={image1}
                         sdescription={Data[0].sdescription}
                         slink={Data[0].slink}
                     />
                     <Cards
-                        stype={Data[1].stype}
+                        // stype={Data[1].stype}
                         simage={image2}
                         sdescription={Data[1].sdescription}
                         slink={Data[1].slink}
                     />
                     <Cards
-                        stype={Data[2].stype}
+                        // stype={Data[2].stype}
                         simage={image3}
                         sdescription={Data[2].sdescription}
                         slink={Data[2].slink}
                     />
                     <Cards
-                        stype={Data[1].stype}
-                        simage={image2}
+                        // stype={Data[1].stype}
+                        simage={image4}
                         sdescription={Data[1].sdescription}
                         slink={Data[1].slink}
                     />
                     <Cards
-                        stype={Data[2].stype}
-                        simage={image3}
+                        // stype={Data[2].stype}
+                        simage={image5}
                         sdescription={Data[2].sdescription}
                         slink={Data[2].slink}
                     />
