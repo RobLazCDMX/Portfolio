@@ -1,7 +1,8 @@
-import React , { useEffect } from 'react';
+import React , {  useEffect } from 'react';
 import Aos from "aos";
 import 'aos/dist/aos.css';
 import MePic from '../assets/Me.png';
+
 
 
 const Contact = () => {
@@ -13,17 +14,17 @@ const Contact = () => {
             <h3>Get In Touch</h3>
             <div className="contact-input">
                 <input type="email" id="email" placeholder="Example@email.com"/>
-                <input type='text' id='Name' placeholder="Full Name"/>
+                <input type='text' id='Name' placeholder="Full Name" />
                 <input type='text' id='Phone#' placeholder="Phone Number"/>
             </div>
             <div className='fName'>
             
             </div>
             <div className="cv-btn-contact" >
-                <button href="#">Continue</button>  
+                <a href='home'>Continue</a> 
             </div>
             <div className="cv-btn-contact" >
-                <button  href="" onClick={()=> window.open("https://slack-files.com/T5VCY49B3-F01MY9M27U3-3bbdfe3f2a", "_blank")}>Download CV</button>
+                <a href="" onClick={()=> window.open("https://slack-files.com/T5VCY49B3-F01MY9M27U3-3bbdfe3f2a", "_blank")}>Download CV</a>
             </div>
             <br/>
             <br/>
