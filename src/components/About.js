@@ -15,7 +15,7 @@ const About = () => {
             <div className="about-text">
                 <h2>About Me</h2>
                 <h3>I'm a Passionate <span>Developer</span></h3>
-                <p>Dependable, resourceful individual who's always seeking to grow. Up-and-coming software engineer with knowledge in backend and frontend languages. Seeking to become a full-stack developer and to contribute to an organization that is seeking to grow and challenge the status quo. </p>
+                <p>Up-and-coming software engineer with knowledge in backend and frontend languages. Seeking to become a full-stack developer and to contribute to an organization that is seeking to grow and challenge the status quo. I also enjoy skydiving, running, bicycling, and reading </p>
                 <button onClick={()=> window.open("https://www.linkedin.com/in/roberto-lazcano-6546301a7/", "_blank")}>View More Details</button>
             </div>
         </div>

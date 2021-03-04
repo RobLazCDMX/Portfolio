@@ -16,7 +16,7 @@ const Header = () => {
            <div data-aos="fade-up" className="name" >
                 <p className="heading">Looking For A Developer!</p>
                 <h1>I'm <span>Roberto</span> Lazcano </h1>
-                <p className="details">I'm a Software Developer. Experience with all stages of the development cycle for dynamic web projects</p>
+                <p className="details">I'm a Junior Software Engineer. Dependable, resourceful individual who's always seeking to grow.</p>
 
                 <div className="header-btns">
                     <Link to='email' className="hire-me-btn">Hire Me</Link>
