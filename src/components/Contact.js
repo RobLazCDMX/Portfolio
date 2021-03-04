@@ -21,7 +21,7 @@ const Contact = () => {
             
             </div>
             <div className="cv-btn-contact" >
-                <a href='home'>Continue</a> 
+                <a href='#'>Continue</a> 
             </div>
             <div className="cv-btn-contact" >
                 <a href="" onClick={()=> window.open("https://slack-files.com/T5VCY49B3-F01MY9M27U3-3bbdfe3f2a", "_blank")}>Download CV</a>
