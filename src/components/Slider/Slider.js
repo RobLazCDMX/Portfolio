@@ -31,9 +31,9 @@ const ImageSlider = () => {
                     />
                     <Cards
                         // stype={Data[1].stype}
-                        simage={image2}
-                        sdescription={Data[1].sdescription}
-                        slink={Data[1].slink}
+                        simage={image5}
+                        sdescription={Data[4].sdescription}
+                        slink={Data[4].slink}
                     />
                     <Cards
                         // stype={Data[2].stype}
@@ -44,14 +44,14 @@ const ImageSlider = () => {
                     <Cards
                         // stype={Data[1].stype}
                         simage={image4}
-                        sdescription={Data[1].sdescription}
-                        slink={Data[1].slink}
+                        sdescription={Data[3].sdescription}
+                        slink={Data[3].slink}
                     />
                     <Cards
                         // stype={Data[2].stype}
-                        simage={image5}
-                        sdescription={Data[2].sdescription}
-                        slink={Data[2].slink}
+                        simage={image2}
+                        sdescription={Data[1].sdescription}
+                        slink={Data[1].slink}
                     />
 
                 </Carousel>
